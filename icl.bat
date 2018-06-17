@@ -1,6 +1,6 @@
 @echo off
 set ver=1.0
-
+call updater.bat %ver%
 set /p data=Data File^>
 if not exist %data% echo. >>%data%
 cls
